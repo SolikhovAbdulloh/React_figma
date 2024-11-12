@@ -1,0 +1,72 @@
+.card_param p {
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+  margin-top: 2rem;
+}
+.asd a {
+  width: 160px;
+  height: 40px;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.asd {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #e8e8e8;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.asd a:hover {
+  text-decoration: underline;
+  background-color: antiquewhite;
+}
+.tovars .tovar1 {
+  width: 316px;
+  height: 534px;
+  background-color: rgb(239, 236, 236);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tovar1 h2 {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.tovar1 img {
+  width: 100%;
+  background-size: cover;
+  
+}
+.razme {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.z {
+  color: red;
+  font-weight: 600;
+  font-size: 22px;
+  display: flex;
+  gap: 15px;
+}
+.z button{
+    width: 150px;
+}
+.tovars{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 30px;
+}
+.value{
+    color: red;
+}

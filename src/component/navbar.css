@@ -1,0 +1,94 @@
+.navbar_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2b150d;
+  padding: 20px;
+}
+a:hover {
+  color: chocolate;
+}
+.ss{
+  background-image: url(./img/logo.png);
+  background-size: cover;
+}
+.b1 {
+  display: flex;
+
+  color: white;
+  gap: 30px;
+  align-items: center;
+}
+.a1 {
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+ul li {
+  display: flex;
+  gap: 17px;
+}
+input {
+  border: 1px solid var(--subcolor-1-gray);
+  border-radius: 6px;
+  width: 508px;
+  height: 40px;
+}
+.logotip_menu{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.fff{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: yellow;
+    color: black;
+}
+@media (max-width: 1105px) {
+  ul li {
+    display: none;
+  }
+}
+
+.menu_2 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #e8e8e8;
+  padding: 10px;
+}
+input{
+    padding: 10px;
+}
+.w1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 5px;
+  text-decoration: none;
+}
+.menu_3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+.menu_2 .w1 a {
+  text-decoration: none;
+  color: black;
+}
+.menu_2 .menu_3 a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  gap: 10px;
+}

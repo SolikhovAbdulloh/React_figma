@@ -1,0 +1,76 @@
+.q1 a {
+  width: 268px;
+  height: 50px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+.Show_case {
+  padding: 40px;
+  background-image: url(./img/Banner.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.Show_case h1 {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 124%;
+  color: white;
+}
+.Show_case p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 97%;
+  color: white;
+  padding-top: 40px;
+}
+.nation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.aa {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.q1 a:hover {
+  background-color: yellow;
+}
+.q1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.case {
+  display: flex;
+  align-items: center;
+}
+
+.case h1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 126%;
+  letter-spacing: -0.01em;
+  color: #2d170c;
+}
+
+.p_case {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  padding: 4px;
+}
+.a2 {
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+  margin-top: 3rem;
+}
