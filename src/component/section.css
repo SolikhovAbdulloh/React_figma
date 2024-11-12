@@ -1,0 +1,66 @@
+.font h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.card {
+  width: 468px;
+  height: 240px;
+  background-color: #e8e8e8;
+  padding: 10px;
+}
+.stars {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.starsa {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card_doc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.alek {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 97%;
+  color: #000;
+}
+.iyun{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(189, 182, 182);
+}
+.bg{
+    width: 100%;
+    border: solid 1px #e0bbbb4c;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.alink{
+    color: orange;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.btn22{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.asd{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

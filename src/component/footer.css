@@ -1,0 +1,44 @@
+.conti .contiener {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 7px;
+}
+.ff1f {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer_menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu_footer p {
+  font-weight: 600;
+  font-size: 16px;
+}
+.menu_footer a {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+.menu_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.num {
+  font-weight: 300;
+  font-size: 24px;
+  color: orange;
+}
+.brow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.boow{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

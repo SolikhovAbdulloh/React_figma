@@ -74,3 +74,37 @@
   color: #000;
   margin-top: 3rem;
 }
+.asd {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.asd p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 158%;
+  color: #000;
+}
+.qwer1 {
+  width: 430px;
+  height: 241px;
+  padding: 5px;
+  background-color: rgb(205, 213, 219);
+}
+.qwer1 span h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 173%;
+  color: orange;
+}
+.qwer1 span p{
+  font-weight: 400;
+font-size: 12px;
+line-height: 173%;
+color: rgb(232, 216, 216);
+}
+.fotter_start{
+  display: grid;
+  grid-template-columns: repeat(3,3fr);
+  gap: 30px;
+}

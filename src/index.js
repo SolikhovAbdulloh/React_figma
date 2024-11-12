@@ -6,6 +6,7 @@ import Header from './component/header';
 import Category from './component/category';
 import Cards from './component/cards';
 import Section from './component/section';
+import Footer from './component/footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -14,9 +15,7 @@ root.render(
     <Category/>
     <Cards/>
     <Section/>
+    <Footer/>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
