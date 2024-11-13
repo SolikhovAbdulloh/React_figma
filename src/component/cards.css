@@ -70,3 +70,22 @@
 .value{
     color: red;
 }
+
+@media (max-width:1428px) {
+  .tovars{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    
+  }
+.card_param .asd{
+    display: none;
+  }
+}
+
+
+@media (max-width:727px) {
+  .tovars{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}

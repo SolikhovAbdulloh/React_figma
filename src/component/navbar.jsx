@@ -3,6 +3,7 @@ import logo from "./img/logo.png"
 import { IoLocation } from "react-icons/io5";
 import { FaClock } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { FaBars } from "react-icons/fa";
 function Navbar() {
   return (
     <div className="contiener ">
@@ -15,6 +16,7 @@ function Navbar() {
           <div className="a1">
             <IoLocation />
             <p>Наш офис: Москва, ул. Новокосимская д.7</p>
+            <FaBars className="bars" />
           </div>
         </div>
         <div>
@@ -50,18 +52,18 @@ function Navbar() {
       </div>
 
       <div className="logotip_menu">
-        <a  href="#">
+        <a href="#">
           <img src={logo} alt="logo" />
         </a>
         <div className="fff">
           <input placeholder="Поиск по каталогу..." />
           <button className="btn">Найти</button>
         </div>
-        <span>
+        <span className="qwe1">
           <p>8 (800) 800-00-00</p>
           <p>8 (455) 700-00-00</p>
         </span>
-        <button>Заказать звонок</button>
+        <button className="btn1">Заказать звонок</button>
       </div>
     </div>
   );

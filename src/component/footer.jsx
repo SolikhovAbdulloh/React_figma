@@ -3,10 +3,11 @@ import logo from "./img/logo.png";
 import { FaTelegram } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-
 let Footer = () => {
   return (
     <div className="conti">
+        
+
       <div className="contiener">
         <div className="logotip_menu">
           <a href="#">
@@ -73,7 +74,10 @@ let Footer = () => {
             </p>
             <p>Email: youremail@mailbox.ru</p>
             <p>Мы в соц.сетях:</p>
-            <p>ООО "Фаза Групп" <br />ИНН: 7751140879 <br /> ОГРН: 1187746273461</p>
+            <p>
+              ООО "Фаза Групп" <br />
+              ИНН: 7751140879 <br /> ОГРН: 1187746273461
+            </p>
           </div>
         </div>
       </div>

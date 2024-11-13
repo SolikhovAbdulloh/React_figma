@@ -8,7 +8,7 @@
 a:hover {
   color: chocolate;
 }
-.ss{
+.ss {
   background-image: url(./img/logo.png);
   background-size: cover;
 }
@@ -23,6 +23,9 @@ a:hover {
   display: flex;
   gap: 10px;
   color: white;
+}
+.a1 .bars{
+  display: none;
 }
 ul li a {
   list-style: none;
@@ -39,35 +42,112 @@ input {
   width: 508px;
   height: 40px;
 }
-.logotip_menu{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    justify-content: space-between;
+.logotip_menu {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
 }
-.fff{
-    display: flex;
-    align-items: center;
+.fff {
+  display: flex;
+  align-items: center;
 }
-.btn{
-    background-color: yellow;
-    color: black;
+.btn {
+  background-color: yellow;
+  color: black;
 }
 @media (max-width: 1105px) {
   ul li {
     display: none;
   }
+  .a1 .bars{
+  display: block;
+}
+.navbar_menu{
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width:544px) {
+  .navbar_menu{
+    display: none;
+  }
 }
 
-.menu_2 {
+}
+@media (max-width: 1169px){
+  .menu_2 div{
+    display: none;
+  }
+   .btn1{
+  display: none;
+ }
+}
+@media (max-width:948px) {
+   .fff input{
+    width: 100px;
+    height: 30px;
+  }
+  
+}
+@media (max-width:508px) {
+ log .fff{
+    display: none;
+  }
+}
+@media (max-width:730px) {
+ .fff{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+ .logotip_menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+ }
+ .logotip_menu .btn1{
+  display: none;
+ }
+
+}
+@media (max-width:1375px) {
+  .fff input{
+    width: 300px;
+    height: 30px;
+  }
+  .qwe1{
+    display: none;
+  }
+  .btn{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+
+  }
+   .btn1{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+}
+
+.bt1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.menu_2{
   display: flex;
   justify-content: space-around;
   align-content: center;
   background-color: #e8e8e8;
   padding: 10px;
 }
-input{
-    padding: 10px;
+input {
+  padding: 10px;
 }
 .w1 {
   display: flex;
